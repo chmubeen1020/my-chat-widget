@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* ================================
+   Design Tokens (Theme)
+================================ */
+@theme {
+  /* Brand */
+  --color-primary: #6B69B2;
+  --color-secondary: #6366f1;
+
+  /* Base UI */
+  --color-background: #09090b;
+  --color-foreground: #ffffff;
+
+  /* Custom */
+  --color-herogradient: #EDEDFF;
+}
+
+/* ================================
+   Custom Utilities
+================================ */
+@layer utilities {
+  .bg-hero-gradient {
+    background-image: linear-gradient(
+      60deg,
+      #ffffff 5%,
+      #ebebfc 45%,
+      #ffffff 65%,
+      #e5effc 80%,
+      #ffffff 90%
+    );
+  }
+}
