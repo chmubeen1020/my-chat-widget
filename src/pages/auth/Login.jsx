@@ -125,7 +125,7 @@ const GoToDashboard= () => {
             <div
               className="
       relative z-20
-      w-full max-w-lg lg:max-w-xl 2xl:max-w-3xl
+      w-full max-w-lg lg:max-w-xl 2xl:max-w-2xl
       text-left pt-20
     "
             >
@@ -172,7 +172,7 @@ const GoToDashboard= () => {
             <div
               className="
       relative
-      w-full max-w-lg lg:max-w-xl 2xl:max-w-3xl
+      w-full max-w-lg lg:max-w-xl 2xl:max-w-2xl
       mt-8
     "
             >

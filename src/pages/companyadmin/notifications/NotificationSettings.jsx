@@ -38,7 +38,7 @@ const NotificationSettings = () => {
       </div>
 
       {/* Channels Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <NotificationChannelCard 
           icon={<Mail size={18} />} 
           title="Email Notifications" 
@@ -47,13 +47,13 @@ const NotificationSettings = () => {
           btnText="Send Test Email"
         />
         
-        <NotificationChannelCard 
+        {/* <NotificationChannelCard 
           icon={<MessageSquare size={18}  />} 
           title="SMS Notifications" 
           description="Receive updates via SMS"
           items={toggleItems}
           btnText="Send Test SMS"
-        />
+        /> */}
         
         <NotificationChannelCard 
           icon={<Bell size={18}  />} 
